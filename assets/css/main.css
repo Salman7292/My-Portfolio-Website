@@ -15,7 +15,7 @@
 
 .sidebar {
   overflow-y: scroll;   /* keeps it scrollable */
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none !importtant; /* Firefox */
 }
 
 .sidebar::-webkit-scrollbar {
